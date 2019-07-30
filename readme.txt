@@ -1,6 +1,6 @@
 conda environment YAML files
 
-TL;DR "how to use"
+
 Initial Install
 $ wget https://raw.githubusercontent.com/ericmjl/conda-envs/master/{env_name}.yml -O environment.yml
 $ conda env create -f environment.yml
