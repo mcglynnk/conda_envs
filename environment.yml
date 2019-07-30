@@ -1,0 +1,29 @@
+# The name of the environment matching the repository name
+name: flavor_proj
+
+channels:
+- conda-forge
+- defaults
+
+# Start with Python and include everything you need
+dependencies:
+- python=3.7
+- biopython
+- chemspipy
+- jupyter
+- scipy
+- lxml
+- pandas
+- numpy
+- beautifulsoup4
+- seaborn
+- scikit-learn
+- spyder
+- spyder-kernels=0.4.2
+- sqlalchemy
+- sqlite
+- urllib3
+
+
+#  !conda env update -f environment.yml
+
