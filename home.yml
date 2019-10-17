@@ -22,6 +22,7 @@ dependencies:
 
 # SQL
 - sqlalchemy
+- sqlite
 - sqlalchemy-utils
 - psycopg2
 
@@ -30,8 +31,10 @@ dependencies:
 - pymc3
 - scikit-learn
 
-# Other
-- flask
+# Webscraping
+- lxml
+- beautifulsoup4
+- urllib3
 
 
 
