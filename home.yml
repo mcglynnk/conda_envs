@@ -2,24 +2,36 @@ name: home
 channels:
 - defaults
 - conda-forge
-- ericmjl
+
 dependencies:
-- python=3.6
-- matplotlib
-- numpy
-- pandas
-- scipy
-- seaborn
+# Basics
+- python=3.8
+- ipykernel
 - jupyter
 - jupyterlab
+- rise
+- numpy
+- pandas
+- environment_kernels
+
+# Vis
+- bokeh
+- matplotlib
+- seaborn
+- statsmodels
+
+# SQL
+- sqlalchemy
+- sqlalchemy-utils
+- psycopg2
+
+# ML
+- scipy
 - pymc3
 - scikit-learn
-- statsmodels
-- ipykernel
+
+# Other
 - flask
-- bokeh
-- rise
-- sqlalchemy
-- psycopg2
-- environment_kernels
-- sqlalchemy-utils
+
+
+
