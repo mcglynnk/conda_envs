@@ -1,0 +1,21 @@
+name: webscr
+channels:
+- defaults
+- conda-forge
+
+dependencies:
+# Basics
+- python=3.8
+- ipykernel
+- jupyter
+- jupyterlab
+- rise
+- numpy
+- pandas
+- environment_kernels
+
+# Webscraping
+- lxml
+- beautifulsoup4
+- urllib3
+
